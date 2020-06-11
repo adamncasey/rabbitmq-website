@@ -44,9 +44,9 @@ and client libraries. This value is negotiated between the
 client and RabbitMQ server at the time of connection. The
 client must be configured to request heartbeats.
 
-The broker and client will attempt to negotiate
-heartbeats by default. When both values are greater than zero, the lower of the requested
-values will be used. A zero value disables heartbeats.
+The broker and client will attempt to negotiate heartbeats by default.
+When both values are greater than zero, the client requested value will be used.
+A zero value disables heartbeats.
 
 The timeout is in seconds, and default value is `60`.
 
